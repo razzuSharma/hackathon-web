@@ -1,6 +1,7 @@
 import React from "react"; // Import React
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
+import ConvexClientProvider from "./ConvexClientProvider";
 
 export default function RootLayout({
   children,
@@ -11,7 +12,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        {children}
+        <ConvexClientProvider>{children}</ConvexClientProvider>
       </body>
     </html>
   );
