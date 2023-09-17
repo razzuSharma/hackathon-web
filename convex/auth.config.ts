@@ -1,8 +1,8 @@
 export default {
     providers: [
       {
-        domain: "your-domain.us.auth0.com",
-        applicationID: "yourclientid",
+        domain: "dev-mnin84bcbcrpo0h8.us.auth0.com",
+        applicationID: "bRzHncEhFxKJe5sAmPaCVL2KW7YBo1Jl",
       },
     ]
   };
